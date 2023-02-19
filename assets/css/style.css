@@ -1,0 +1,186 @@
+:root {
+  --background-color: #001b2e;
+  --answers-color: #a3009e;
+  --answers-hover-color: #ff47f9;
+  --btn-color: #faa916;
+}
+body {
+  display: flex;
+  justify-content: center;
+  /*align-items: center;*/
+  flex-flow: column wrap;
+  align-content: center;
+  height: 100vh;
+  background-color: var(--background-color);
+  color: white;
+}
+p {
+  font-size: 150%;
+}
+p.enter {
+  font-size: 90%;
+  color: var(--btn-color);
+  margin-top: 10px;
+}
+ul {
+  padding: 0;
+  overflow: auto;
+}
+
+#highscore-container ul {
+  /**/
+  overflow: auto;
+  max-height: 442px;
+}
+
+li {
+  list-style: none;
+  margin: 1rem 1rem 1rem 0rem;
+  background-color: var(--answers-color);
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-size: 115%;
+  font-weight: 600;
+  user-select: none;
+}
+
+li.pointer {
+  cursor: pointer;
+}
+
+li:hover {
+  background-color: var(--answers-hover-color);
+}
+
+.custom-btn {
+  font-weight: 700;
+  font-size: 104%;
+  color: #001b2e;
+}
+
+.custom-btn:hover {
+  color: white;
+}
+
+.start-btn {
+  background-color: var(--btn-color);
+  font-weight: 700;
+  font-size: 140%;
+}
+
+.start-btn:hover {
+  background-color: #feb122;
+  color: white;
+}
+
+.start-color {
+  background-color: var(--btn-color);
+}
+.start-color:hover {
+  background-color: #feb122;
+  color: white;
+}
+
+.show-highscores-btn {
+  font-size: 80%;
+}
+
+.gui {
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  padding: 2rem;
+}
+form {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* margin: 10px; */
+}
+
+.correct {
+  color: #35e13c;
+}
+
+.incorrect {
+  color: #ff185b;
+}
+
+.hidden {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+footer {
+  display: flex;
+  flex-flow: wrap row;
+  align-content: center;
+  align-items: center;
+  position: absolute;
+  justify-content: center;
+  bottom: 0;
+  margin: 0 auto;
+  width: inherit;
+  font-size: 70%;
+}
+
+footer p {
+  color: #1b5a87;
+  margin: 0;
+}
+
+footer ul {
+  flex-flow: wrap row;
+  display: flex;
+  justify-content: center;
+  margin-left: 1rem;
+  margin-bottom: 0;
+}
+
+footer li {
+  background-color: transparent;
+  opacity: 0.5;
+}
+
+footer li:hover {
+  background-color: var(--btn-color);
+  opacity: 1;
+}
+footer li:hover a {
+  color: white;
+}
+
+@media screen and (max-width: 300px) {
+  footer p {
+    display: none;
+  }
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #0a2a40;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #36556b;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #446a86;
+}
