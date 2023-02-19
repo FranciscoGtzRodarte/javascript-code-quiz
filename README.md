@@ -37,7 +37,7 @@ THEN I can save my initials and score
 
 The following animation demonstrates the application functionality:
 
-![](/assets/img/javascriptQuiz-Mockup.mp4)
+![](/assets/img/javascriptQuiz-Mockup.png)
 
 ## Usage
 
