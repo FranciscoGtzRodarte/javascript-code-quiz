@@ -51,3 +51,7 @@ The following animation demonstrates the application functionality:
 8. In the start and game screen you can also click the 'Show highscores" button to display the Highscores table.
 
 ## Deployed site link
+
+https://franciscogtzrodarte.github.io/javascript-code-quiz/
+
+## Thank you for using this app
